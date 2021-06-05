@@ -154,5 +154,5 @@ class loginstate extends State<login> {
 // controller used to fetch data which is input by user.
 //TextEditingController is a inbuilt controller for an editable text field.
 //hintText used as watermark in text field.
-//inputdecoration used to decorate textfield decoration.
+//InputDecoration used to decorate TextField decoration.
 //new Image.asset, image is a directory and asset is image that is inside image directory.
