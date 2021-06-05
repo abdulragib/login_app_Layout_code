@@ -24,7 +24,8 @@ class loginstate extends State<login> {
   void _showWelcome() {
     setState(() {
       if (_userController.text.isNotEmpty &&
-          _passwordController.text.isNotEmpty) {
+          _passwordController.text.isNotEmpty)
+      {
         _welcomeString = _userController.text;
       } else {
         _welcomeString = "Nothing!";
@@ -75,6 +76,7 @@ class loginstate extends State<login> {
                       hintText: 'Password',
                       icon: new Icon(Icons.lock),
                     ),
+                    obscureText: true,
                   ),
 
                   //padding for ElevatedButton
@@ -156,3 +158,4 @@ class loginstate extends State<login> {
 //hintText used as watermark in text field.
 //InputDecoration used to decorate TextField decoration.
 //new Image.asset, image is a directory and asset is image that is inside image directory.
+// control + f for search in android studio
